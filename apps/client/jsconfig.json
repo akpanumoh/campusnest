@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "paths": {
+      "@campusnest/shared-types": [
+        "../../packages/shared-types/database.types.ts"
+      ],
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

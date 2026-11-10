@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen:types": "supabase gen types typescript --local > ../../packages/shared-types/database.types.ts",
+    "gen:types:prod": "supabase gen types typescript --project-id fxdhmaurlywfmgntawad > ../../packages/shared-types/database.types.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "supabase": "catalog:",
+    "typescript": "catalog:"
+  },
+  "dependencies": {
+    "@campusnest/shared-types": "catalog:"
+  }
+}

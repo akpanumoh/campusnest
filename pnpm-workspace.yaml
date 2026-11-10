@@ -1,0 +1,35 @@
+packages:
+  - apps/*
+  - packages/*
+  - apps
+
+catalogMode: prefer
+
+catalog:
+  '@base-ui/react': ^1.9.0
+  '@campusnest/shared-types': workspace:*
+  '@fontsource-variable/geist': ^5.3.0
+  '@fontsource-variable/plus-jakarta-sans': ^5.3.0
+  '@fontsource/jetbrains-mono': ^5.3.0
+  '@supabase/supabase-js': ^2.118.0
+  '@tailwindcss/vite': ^4.3.5
+  '@tanstack/react-query': ^5.105.2
+  '@tanstack/react-query-devtools': ^5.107.1
+  '@testing-library/jest-dom': ^7.0.1
+  '@testing-library/react': ^16.3.3
+  '@types/node': ^24
+  class-variance-authority: ^0.7.1
+  cn: ^0.5.2
+  jsdom: ^31.0.0
+  lucide-react: ^1.70.0
+  react-hook-form: ^7.91.0
+  react-router-dom: ^7.18.5
+  shadcn: ^4.23.0
+  supabase: ^3.0.0
+  tailwindcss: ^4.3.5
+  tw-animate-css: ^1.4.0
+  typescript: ^7.0.0
+  vite: npm:@voidzero-dev/vite-plus-core@1.4.0
+  vite-plus: 1.4.0
+  vitest: ^5.1.0
+  zod: ^4.6.7
